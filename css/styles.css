@@ -123,6 +123,19 @@ a, button, .nav-item, .mobile-nav-item, .mobile-call, .dynamic-call {
   transform: translateY(0);
 }
 
+.project-description {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+}
+
+.project-description.active {
+  opacity: 1;
+  pointer-events: auto;
+  position: relative;
+}
+
 .project-description h3 {
   font-size: 2.2rem;
   margin-bottom: 16px;
