@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Premium Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="prefetch" href="about.html">
+  <link rel="prefetch" href="call.html">
+</head>
+<body>
+  <!-- LOGO SECTION -->
+  <section class="logo-section">
+    <div class="logo">RS</div>
+    <div class="logo-info">
+      <div class="logo-divider"></div>
+      <div class="logo-dot"></div>
+      <div class="logo-text">
+        <div class="logo-text-line creative">Creative</div>
+        <div class="logo-text-line innovative">Innovative</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTTOM LEFT -->
+  <section class="bottom-left">
+    <svg class="map-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+      <circle cx="12" cy="10" r="3"></circle>
+    </svg>
+    <div class="work-text">Work</div>
+    <div class="worldwide-text">Worldwide</div>
+  </section>
+
+  <!-- BOTTOM RIGHT -->
+  <section class="bottom-right">
+    <svg class="stack-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3"></polyline>
+      <polyline points="12 12 20 7.5"></polyline>
+      <polyline points="12 12 12 21"></polyline>
+      <polyline points="12 12 4 7.5"></polyline>
+    </svg>
+    <div class="fullstack-text">Full Stack Dev</div>
+    <div class="designer-text">& Designer</div>
+  </section>
+
+  <!-- Portfolio image (placeholder / user PNG) -->
+  <img src="assets/port-image.png" alt="Portfolio" class="portfolio-image" onerror="this.onerror=null; this.src='file:///C:/Users/Shivangi/Downloads/port-image.png';" />
+  <div class="portfolio-placeholder" aria-hidden="true">(place port-image.png in project assets/ for Live Server)</div>
+
+  <!-- FLOATING HEADER (hidden by default) -->
+  <div class="floating-header">
+    <nav class="floating-nav">
+      <a href="#home" class="nav-item">Home</a>
+      <a href="about.html" class="nav-item">About</a>
+      <a href="#more" class="nav-item">More</a>
+    </nav>
+    <a href="call.html" class="floating-call">
+      <svg class="floating-call-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </svg>
+      <span class="floating-call-text">Call</span>
+    </a>
+  </div>
+
+  <!-- DESKTOP HEADER -->
+  <header class="header-desktop">
+    <nav class="dynamic-nav">
+      <a href="#home" class="nav-item">Home</a>
+      <a href="about.html" class="nav-item">About</a>
+      <div class="nav-dropdown">
+        <a class="nav-item">More
+          <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </a>
+        <div class="dropdown-menu">
+          <a href="about.html#social-links" class="dropdown-item dropdown-island">
+            <span class="dropdown-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07L10.9 5"></path>
+                <path d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 0 0 7.07 7.07L13.1 19"></path>
+              </svg>
+            </span>
+            <span class="dropdown-copy">
+              <span class="dropdown-title">Links</span>
+              <span class="dropdown-sub">Social Connects</span>
+            </span>
+          </a>
+          <a href="#projects" class="dropdown-item dropdown-island">
+            <span class="dropdown-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="7" width="18" height="12" rx="2"></rect>
+                <path d="M9 7V5a3 3 0 0 1 6 0v2"></path>
+              </svg>
+            </span>
+            <span class="dropdown-copy">
+              <span class="dropdown-title">Work</span>
+              <span class="dropdown-sub">Projects Done</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <a href="call.html" class="dynamic-call">
+      <svg class="call-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </svg>
+      <span class="call-text">Call</span>
+    </a>
+  </header>
+
+  <!-- MOBILE HEADER -->
+  <header class="header-mobile">
+    <div class="mobile-island">
+      <button type="button" class="mobile-island-toggle" aria-expanded="false" aria-controls="mobileIslandMenuMain">
+        <span class="mobile-island-rs">RS</span>
+        <span class="mobile-island-divider"></span>
+        <span class="mobile-island-name">Rohan</span>
+      </button>
+      <nav class="mobile-island-menu" id="mobileIslandMenuMain">
+        <a href="#home" class="mobile-island-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg>
+          <span>Home</span>
+        </a>
+        <a href="about.html" class="mobile-island-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="7.5" r="3.5"/><path d="M4.5 21a7.5 7.5 0 0 1 15 0"/></svg>
+          <span>About</span>
+        </a>
+        <a href="about.html#social-links" class="mobile-island-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 1 0-7.07-7.07L10.9 5"/><path d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 0 0 7.07 7.07L13.1 19"/></svg>
+          <span>Links</span>
+        </a>
+        <a href="#projects" class="mobile-island-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M9 7V5a3 3 0 0 1 6 0v2"/></svg>
+          <span>Work</span>
+        </a>
+        <a href="call.html" class="mobile-island-link mobile-island-call">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>Call</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>ROHAN</h1>
+      <p>I Build And Design</p>
+      <div class="subtitle">BRICK BY BRICK</div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO INTERACTION SECTION -->
+  <section id="portfolio-section" class="portfolio-section">
+    <div class="portfolio-inner">
+      <div class="portfolio-text">
+        <h2 class="portfolio-hello">HELLO</h2>
+        <p class="portfolio-body">I help transform ideas into well-engineered, scalable web products. From architecture to deployment, I focus on clean code, seamless performance, and modern technologies. I believe great products are built by understanding both engineering and real-world use cases.</p>
+        <div class="skills-islands" aria-label="Skills">
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=react" alt="ReactJS icon" loading="lazy" />ReactJS</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=nextjs" alt="NextJS icon" loading="lazy" />NextJS</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript icon" loading="lazy" />TypeScript</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS icon" loading="lazy" />Tailwind CSS</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=motion" alt="Motion icon" loading="lazy" />Motion</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=sanity" alt="Sanity icon" loading="lazy" />Sanity</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=contentful" alt="Contentful icon" loading="lazy" />Contentful</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=nodejs" alt="NodeJS icon" loading="lazy" />NodeJS</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=express" alt="ExpressJS icon" loading="lazy" />ExpressJS</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL icon" loading="lazy" />PostgreSQL</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB icon" loading="lazy" />MongoDB</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=prisma" alt="Prisma icon" loading="lazy" />Prisma</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=zustand" alt="Zustand icon" loading="lazy" />Zustand</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=zod" alt="Zod icon" loading="lazy" />Zod</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=pnpm" alt="pnpm icon" loading="lazy" />pnpm</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=bun" alt="Bun icon" loading="lazy" />Bun</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=git" alt="Git icon" loading="lazy" />Git</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=github" alt="GitHub icon" loading="lazy" />GitHub</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=vercel" alt="Vercel icon" loading="lazy" />Vercel</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=aws" alt="AWS icon" loading="lazy" />AWS</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=docker" alt="Docker icon" loading="lazy" />Docker</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=expo" alt="Expo icon" loading="lazy" />Expo</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=clerk" alt="Clerk icon" loading="lazy" />Clerk</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=linux" alt="Linux icon" loading="lazy" />Linux</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=shopify" alt="Shopify icon" loading="lazy" />Shopify</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=kotlin" alt="Kotlin icon" loading="lazy" />Kotlin</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=wordpress" alt="WordPress icon" loading="lazy" />WordPress</span>
+          <span class="skill-island"><img src="https://cdn.simpleicons.org/hostinger/white" alt="Hostinger icon" loading="lazy" />Hostinger</span>
+          <span class="skill-island"><img src="https://cdn.simpleicons.org/woocommerce/white" alt="WooCommerce icon" loading="lazy" />WooCommerce</span>
+          <span class="skill-island"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code icon" loading="lazy" />VS Code</span>
+        </div>
+      </div>
+      <!-- image will be the floating hero image transitioning into this section; no duplicate here -->
+    </div>
+  </section>
+
+<section class="projects-section" id="projects">
+  <h2 class="projects-title">
+    <strong>My Work & Projects</strong>
+  </h2>
+
+  <div class="projects-layout">
+
+    <!-- LEFT IMAGE AREA -->
+    <div class="projects-left">
+      <button class="arrow-btn prev">←</button>
+
+      <div class="project-image-wrap">
+        <img src="assets/lemon.png" class="project-image active" />
+        <img src="assets/Bakery.png" class="project-image" />
+        <img src="assets/Real-Estate.png" class="project-image" />
+        <img src="assets/Clinic.png" class="project-image" />
+      </div>
+
+      <button class="arrow-btn next">→</button>
+    </div>
+
+    <!-- RIGHT DESCRIPTION AREA -->
+    <div class="projects-right">
+      <div class="project-description active">
+        <h3>E-Commerce Shopping Site</h3>
+        <p>
+         Lemon Shop is an Online E-commerce Website. That is Currently Active for shopping by Rohan Singh. 
+        </p>
+        <a class="project-link project-link-lemon" href="https://lemonshop.in/" target="_blank" rel="noopener noreferrer" aria-label="Open E-commerce Site">
+          <span>Visit Site</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M7 17 17 7"></path>
+            <path d="M8 7h9v9"></path>
+          </svg>
+        </a>
+      </div>
+
+      <div class="project-description">
+        <h3>Bakery Site </h3>
+        <p>
+         A playful, interactive bakery website featuring delightful animations, smooth transitions, and a mobile-first design that brings the brand to life.
+        </p>
+        <a class="project-link project-link-Bakery" href="https://rohan-create-sudo.github.io/Bakery-Shop/" target="_blank" rel="noopener noreferrer" aria-label="Open Bakery Site project">
+          <span>Visit Site</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M7 17 17 7"></path>
+            <path d="M8 7h9v9"></path>
+          </svg>
+        </a>
+      </div>     
+      
+
+      <div class="project-description">
+        <h3>Real Estate Site </h3>
+        <p>
+          A modern real estate platform designed with intuitive navigation, engaging property showcases, and responsive performance across all devices.
+        </p>
+        <a class="project-link project-link-Real" href="https://rohan-create-sudo.github.io/Real-Estate/" target="_blank" rel="noopener noreferrer" aria-label="Open Real Estate Site project">
+          <span>Visit Site</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M7 17 17 7"></path>
+            <path d="M8 7h9v9"></path>
+          </svg>
+        </a>
+      </div>
+
+      <div class="project-description">
+        <h3>Clinic Site</h3>
+        <p>
+          A modern real estate platform designed with intuitive navigation, engaging property showcases, and responsive performance across all devices.
+        </p>
+        <a class="project-link project-link-flipkart" href="https://rohan-create-sudo.github.io/Clinic/" target="_blank" rel="noopener noreferrer" aria-label="Open Clinic Site project">
+          <span>Visit Site</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M7 17 17 7"></path>
+            <path d="M8 7h9v9"></path>
+          </svg>
+        </a>
+      </div>
+
+
+  </div>
+</section>
+
+  <footer class="site-footer">
+    <p class="footer-copy">© Copyright Reserved Rights by Rohan.</p>
+    <div class="footer-socials" aria-label="Footer social links">
+      <a class="footer-social-link github" href="https://github.com/rohan-create-sudo" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.42-4.04-1.42-.55-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.08 1.84 2.83 1.31 3.52 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.24-3.22-.12-.31-.54-1.57.12-3.26 0 0 1.01-.32 3.31 1.23a11.5 11.5 0 0 1 6.02 0c2.3-1.55 3.3-1.23 3.3-1.23.67 1.69.25 2.95.13 3.26.77.84 1.24 1.91 1.24 3.22 0 4.62-2.8 5.64-5.48 5.95.43.37.82 1.1.82 2.23v3.3c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z" />
+        </svg>
+      </a>
+      <a class="footer-social-link twitter" href="https://x.com/rohan_connect" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M18.9 2h3.7l-8.1 9.3L24 22h-7.4l-5.8-7L4.7 22H1l8.6-9.8L0 2h7.6l5.3 6.4zM17.6 19.7h2L6.5 4.2h-2z" />
+        </svg>
+      </a>
+    </div>
+  </footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
+

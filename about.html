@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="prefetch" href="Main.html">
+  <link rel="prefetch" href="call.html">
+</head>
+<body class="about-page">
+  <section class="logo-section">
+    <div class="logo">RS</div>
+    <div class="logo-info">
+      <div class="logo-divider"></div>
+      <div class="logo-dot"></div>
+      <div class="logo-text">
+        <div class="logo-text-line creative">Creative</div>
+        <div class="logo-text-line innovative">Innovative</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="floating-header">
+    <nav class="floating-nav">
+      <a href="Main.html" class="nav-item">Home</a>
+      <a href="about.html" class="nav-item">About</a>
+      <a href="Main.html#more" class="nav-item">More</a>
+    </nav>
+    <a href="call.html" class="floating-call">
+      <svg class="floating-call-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </svg>
+      <span class="floating-call-text">Call</span>
+    </a>
+  </div>
+
+  <header class="header-desktop active">
+    <nav class="dynamic-nav">
+      <a href="Main.html" class="nav-item">Home</a>
+      <a href="about.html" class="nav-item">About</a>
+      <div class="nav-dropdown">
+        <a class="nav-item">More
+          <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#social-links" class="dropdown-item dropdown-island">
+            <span class="dropdown-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07L10.9 5"></path>
+                <path d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 0 0 7.07 7.07L13.1 19"></path>
+              </svg>
+            </span>
+            <span class="dropdown-copy">
+              <span class="dropdown-title">Links</span>
+              <span class="dropdown-sub">Social Connects</span>
+            </span>
+          </a>
+          <a href="Main.html#projects" class="dropdown-item dropdown-island">
+            <span class="dropdown-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="7" width="18" height="12" rx="2"></rect>
+                <path d="M9 7V5a3 3 0 0 1 6 0v2"></path>
+              </svg>
+            </span>
+            <span class="dropdown-copy">
+              <span class="dropdown-title">Work</span>
+              <span class="dropdown-sub">Projects Done</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <a href="call.html" class="dynamic-call">
+      <svg class="call-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </svg>
+      <span class="call-text">Call</span>
+    </a>
+  </header>
+
+  <header class="header-mobile active">
+    <div class="mobile-island">
+      <button type="button" class="mobile-island-toggle" aria-expanded="false" aria-controls="mobileIslandMenuAbout">
+        <span class="mobile-island-rs">RS</span>
+        <span class="mobile-island-divider"></span>
+        <span class="mobile-island-name">Rohan</span>
+      </button>
+      <nav class="mobile-island-menu" id="mobileIslandMenuAbout">
+        <a href="Main.html" class="mobile-island-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg>
+          <span>Home</span>
+        </a>
+        <a href="about.html" class="mobile-island-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="7.5" r="3.5"/><path d="M4.5 21a7.5 7.5 0 0 1 15 0"/></svg>
+          <span>About</span>
+        </a>
+        <a href="#social-links" class="mobile-island-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 1 0-7.07-7.07L10.9 5"/><path d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 0 0 7.07 7.07L13.1 19"/></svg>
+          <span>Links</span>
+        </a>
+        <a href="Main.html#projects" class="mobile-island-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M9 7V5a3 3 0 0 1 6 0v2"/></svg>
+          <span>Work</span>
+        </a>
+        <a href="call.html" class="mobile-island-link mobile-island-call">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>Call</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="about-hero">
+    <div class="about-content">
+      <h1>ABOUT ME</h1>
+      <p>Know more about me</p>
+    </div>
+  </main>
+
+  <section class="about-details">
+    <div class="about-details-wrap">
+      <div class="about-details-left">
+        <p class="about-eyebrow">A LITTLE ABOUT ME</p>
+        <h2 class="about-title">Good to have you here.</h2>
+        <p class="about-intro">I'm <span class="about-name-gradient">Rohan.</span></p>
+
+        <p class="about-description">
+          I turn ideas into reliable, high-performance digital experiences. With a strong engineering mindset, I work across the stack to build systems that are clean, scalable, and designed to grow, never just to exist.
+        </p>
+        <p class="about-description">
+          I don't just write code; I think in products. From planning architecture to polishing the final experience, I focus on how real people use what we build. Performance, maintainability, and clarity always come first.
+        </p>
+        <p class="about-description">
+          I believe great products aren't rushed; they're crafted. My goal is simple: create technology that feels effortless today and remains dependable tomorrow. If you're looking to turn a vision into something solid and long-lasting, that's where I come in.
+        </p>
+
+        <div class="about-socials" id="social-links" aria-label="Social links">
+          <a class="about-social-link github" href="https://github.com/rohan-create-sudo" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.42-4.04-1.42-.55-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.08 1.84 2.83 1.31 3.52 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.24-3.22-.12-.31-.54-1.57.12-3.26 0 0 1.01-.32 3.31 1.23a11.5 11.5 0 0 1 6.02 0c2.3-1.55 3.3-1.23 3.3-1.23.67 1.69.25 2.95.13 3.26.77.84 1.24 1.91 1.24 3.22 0 4.62-2.8 5.64-5.48 5.95.43.37.82 1.1.82 2.23v3.3c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z" />
+            </svg>
+          </a>
+          <a class="about-social-link twitter" href="https://x.com/Rohan_Connect" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18.9 2H22l-6.78 7.74L23.2 22h-6.25l-4.9-6.42L6.43 22H3.3l7.25-8.29L.8 2h6.4l4.43 5.85L18.9 2Zm-1.1 18h1.73L6.25 3.9H4.4L17.8 20Z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <aside class="about-portrait-card" aria-label="Portrait placeholder card">
+        <div class="about-portrait-inner">
+          <p>I detect that I am not photogenic.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p class="footer-copy">(c) Copyright Reserved Rights by Rohan.</p>
+    <div class="footer-socials" aria-label="Footer social links">
+      <a class="footer-social-link github" href="https://github.com/rohan-create-sudo" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.42-4.04-1.42-.55-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.08 1.84 2.83 1.31 3.52 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.24-3.22-.12-.31-.54-1.57.12-3.26 0 0 1.01-.32 3.31 1.23a11.5 11.5 0 0 1 6.02 0c2.3-1.55 3.3-1.23 3.3-1.23.67 1.69.25 2.95.13 3.26.77.84 1.24 1.91 1.24 3.22 0 4.62-2.8 5.64-5.48 5.95.43.37.82 1.1.82 2.23v3.3c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z" />
+        </svg>
+      </a>
+      <a class="footer-social-link linkedin" href="https://www.linkedin.com/in/rohan-connect/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20.45 20.45h-3.56v-5.58c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.13 1.44-2.13 2.93v5.68H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.26 2.36 4.26 5.42v6.32ZM5.34 7.43A2.07 2.07 0 1 1 5.34 3.3a2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z" />
+        </svg>
+      </a>
+    </div>
+  </footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
+
